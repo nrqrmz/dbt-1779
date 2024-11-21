@@ -50,7 +50,15 @@ sources:
           - name: log_cost
             description: the cost of preparing the parcel in the distribution centre/warehouse
           - name: ship_cost
-            description: shipping cost paid by Greenweez to the carrier/logistics provider
+            description: shipping cost paid by Greenweez to the carrier/logistics 
+      - name: adwords
+        identifier: raw_gz_adwords
+      - name: bing
+        identifier: raw_gz_bing
+      - name: criteo
+        identifier: raw_gz_criteo
+      - name: facebook
+        identifier: raw_gz_facebook
 
 models:
   - name: int_orders_margin
