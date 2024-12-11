@@ -42,5 +42,4 @@ models:
       +materialized: table
       finance:
         +schema: finance
-      sales:
-        +schema: sales
+
