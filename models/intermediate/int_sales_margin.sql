@@ -3,6 +3,7 @@ SELECT
     date_date,
     orders_id,
     revenue,
+    -- {{ format(revenue) }} AS formated_revenue,
     quantity,
     purchase_price,
     ROUND(quantity * purchase_price, 2) AS purchase_cost,
